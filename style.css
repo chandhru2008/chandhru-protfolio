@@ -644,7 +644,7 @@ footer {
 }
 @media (max-width:760px){
  form{
-  width: 100%;
+  width: 90%;
  }
  .footer-1{
   margin-left: 0;
