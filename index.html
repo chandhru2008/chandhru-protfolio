@@ -4,8 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Chandhru-Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="logo.jpg">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -24,7 +26,7 @@
                 <div class=nav-item><a href="#home">HOME</a></div>
                 <div class=nav-item><a href="#about">ABOUT</a></div>
                 <div class=nav-item> <a href="#skill">SKILLS</a></div>
-                <div class=nav-item> <a href="#project">BLOG</a></div>
+                <div class=nav-item> <a href="#project">PROJECT</a></div>
                 <div class=nav-item><a href="#connect">CONTACT</a></div>
             </nav>
     </div>
@@ -32,36 +34,42 @@
     </div>
     <main>
         <div class="bg">
+
             <section class="section-1" id="home">
                 <div class="chan">HELLO !THIS IS CHANDHRU</div>
                 <div class="dhru">I am a FSSA student</div>
                 <button class="hire">Hire me</button>
                 <button class="down">Download cv</button>
+
             </section>
+            <div class="gif-img">
+                <img src="AREmoji_20240911_191043_90483.gif" alt="gif" height="580px" width="550px">
+            </div>
+        </div>
         </div>
         <section class="icons">
             <div class="fit">
                 <div class="uu">
                     <div><i class="fa-solid fa-suitcase"></i></div>
-                    <div><span class="span-1">768</span>
+                    <div><span class="span-1">6.89</span>
                         <spna class="span-3">PROJECT COMPLETED</spna>
                     </div>
                 </div>
                 <div class="uu">
                     <div><i class="fa-solid fa-user"></i></div>
-                    <div><span class="span-1">768</span>
+                    <div><span class="span-1">126</span>
                         <spna class="span-3">HAPPY CLIENTS</spna>
                     </div>
                 </div>
                 <div class="uu">
                     <div><i class="fa-solid fa-mug-saucer"></i></div>
-                    <div><span class="span-1">400</span>
+                    <div><span class="span-1">456</span>
                         <spna class="span-3">CUPS OF COOFE</spna>
                     </div>
                 </div>
                 <div class="uu">
                     <div><i class="fa-solid fa-calendar-check"></i></div>
-                    <div><span class="span-1">768</span>
+                    <div><span class="span-1">0.4</span>
                         <spna class="span-3">YEARS EXPERIENCED</spna>
                     </div>
                 </div>
@@ -69,17 +77,20 @@
         </section>
         <section class="Intro" id="about">
 
-            <div class="img-div">
-                <img src="chan.jpg" alt="Chandhru" class="img">
+            <div class="img-div" data-aos="zoom-in-down">
+                <img src="MyImage.png" alt="Chandhru" class="img">
             </div>
             <div>
-                <div class="about-list">
+                <div class="about-list" data-aos="fade-down">
                     <h3 class="me">MY INTRO</h3>
                     <h2 class="me-2">About Me</h2>
-                    <p>A small river named Duden flows by their place and supplies it with the<br> necessary
-                        regelialia.
-                        It is a
-                        paradisematic country, in which roastedparts <br>of sentences fly into your mouth.
+                    <p>Hi, hello! I am Chandhru from Paramakudi, Ramanathapuram. I completed my <br>12th grade this year
+                        and
+                        am currently studying FSSA in Chennai.I am always <br> eager to learn new things about tech. I
+                        have
+                        a basic knowledge of frontend<br> development, and my portfolio showcases my understanding of
+                        this
+                        field.
                     </p>
                     <div class="list-container">
                         <div class="list-1">
@@ -97,28 +108,28 @@
                                 <li>Chandhru</li>
                                 <li>20.08.2006</li>
                                 <li>Global Infocity,kandanchavadi,cheenai</li>
-                                <li>gscahndhru34@gmail.com</li>
+                                <li>gschandhru06@gmail.com</li>
                                 <li>098888</li>
                                 <li>+91 987654321</li>
                             </ul>
                         </div>
                     </div>
                 </div>
-                <div class="hoby">
+                <div class="hoby" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                     <div class="music">
-                        <div>|</div><i class="fa-solid fa-gamepad"></i>
+                        <i class="fa-solid fa-gamepad"></i>
                         <h3>Gaming</h3>
                     </div>
                     <div class="music">
-                        <div>|</div><i class="fa-solid fa-music"></i>
+                        <i class="fa-solid fa-music"></i>
                         <h3>Music</h3>
                     </div>
                     <div class="music">
-                        <div>|</div><i class="fa-solid fa-car"></i>
+                        <i class="fa-solid fa-car"></i>
                         <h3>Travel</h3>
                     </div>
                     <div class="music">
-                        <div>|</div><i class="fa-solid fa-video"></i>
+                        <i class="fa-solid fa-video"></i>
                         <h3>Cinema</h3>
                     </div>
                 </div>
@@ -130,38 +141,108 @@
             <h2>My Skills</h2>
             <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
             <div class="grid-container">
-                <div class="grid-item">
+                <div class="grid-item" data-aos="zoom-in-right">
                     <h3>HTML</h3>
                     <div class="grid-icon html"><i class="fa-brands fa-html5 fa-beat"></i></div>
+                    <div class="percentage">
+                        <div class="per-1 per-2">
+                            <span class="per-pro">8.8%</span>
+                            <span class="per-pros">Last week</span>
+                        </div>
+                        <div class="per-1">
+                            <span class="per-pro">70%</span>
+                            <span class="per-pros">Last month</span>
+                        </div>
+                    </div>
+
+
+
                 </div>
-                <div class="grid-item">
-                    <h3>HTML</h3>
+                <div class="grid-item" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                    <h3>CSS</h3>
                     <div class="grid-icon css"><i class="fa-brands fa-css3-alt fa-beat"></i></div>
+                    <div class="percentage">
+                        <div class="per-1 per-2">
+                            <span class="per-pro">10%</span>
+                            <span class="per-pros">Last week</span>
+                        </div>
+                        <div class="per-1">
+                            <span class="per-pro">58%</span>
+                            <span class="per-pros">Last month</span>
+                        </div>
+                    </div>
                 </div>
-                <div class="grid-item">
+                <div class="grid-item" data-aos="zoom-in-left">
                     <h3>js</h3>
                     <div class="grid-icon  js"><i class="fa-brands fa-node-js fa-beat"></i></div>
+                    <div class="percentage">
+                        <div class="per-1 per-2">
+                            <span class="per-pro">8.8%</span>
+                            <span class="per-pros">Last week</span>
+                        </div>
+                        <div class="per-1">
+                            <span class="per-pro">10%</span>
+                            <span class="per-pros">Last month</span>
+                        </div>
+                    </div>
                 </div>
-                <div class="grid-item">
+                <div class="grid-item" data-aos="zoom-in-left">
                     <h3>Bostrap</h3>
                     <div class="grid-icon bs"><i class="fa-brands fa-bootstrap fa-beat"></i></div>
+                    <div class="percentage">
+                        <div class="per-1 per-2">
+                            <span class="per-pro">10%</span>
+                            <span class="per-pros">Last week</span>
+                        </div>
+                        <div class="per-1">
+                            <span class="per-pro">20%</span>
+                            <span class="per-pros">Last month</span>
+                        </div>
+                    </div>
                 </div>
-                <div class="grid-item">
+                <div class="grid-item" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                     <h3>java</h3>
-                    <div class="grid-icon java"><i class="fa-brands fa-java fa-beat fa-xs" style="color: #604e97;"></i></div>
+                    <div class="grid-icon java"><i class="fa-brands fa-java fa-beat fa-xs"
+                            style="color: #9c9c9c;font-weight: 800; font-size: 68px;"></i>
+                    </div>
+                    <div class="percentage">
+                        <div class="per-1 per-2">
+                            <span class="per-pro">00%</span>
+                            <span class="per-pros">Last week</span>
+                        </div>
+                        <div class="per-1">
+                            <span class="per-pro">0.2%</span>
+                            <span class="per-pros">Last month</span>
+                        </div>
+                    </div>
                 </div>
-                <div class="grid-item">
+                <div class="grid-item" data-aos="zoom-in-left">
                     <h3>python</h3>
                     <div class="grid-icon python"><i class="fa-brands fa-python fa-beat"></i></div>
+                    <div class="percentage">
+                        <div class="per-1 per-2">
+                            <span class="per-pro">0.8%</span>
+                            <span class="per-pros">Last week</span>
+                        </div>
+                        <div class="per-1">
+                            <span class="per-pro">10%</span>
+                            <span class="per-pros">Last month</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
         <section class="project" id="project">
-            <div>
-                <h2>Have a project on your mind.</h2>
-                <p>A small river named Duden flows by their place and supplies it with the necessary<br> regelialia.
-                    It is a paradisematic country, in which roasted parts of sentences fly.</p>
-                <button class="con-button">Conect Me</button>
+            <div class="tam-flex">
+                <div class="tom-p">
+                    <h2>Have a project on your mind.</h2>
+                    <p>A small river named Duden flows by their place and supplies it with the necessary<br> regelialia.
+                        It is a paradisematic country, in which roasted parts of sentences fly.</p>
+                    <button class="con-button">Conect Me</button>
+                </div>
+                <img src="tomandjerry2-removebg-preview-removebg-preview.jpg" alt="" width="200px" height="200px"
+                    class="tom">
+
             </div>
         </section>
         <section class="img-grid">
@@ -170,19 +251,42 @@
                 <h2>Our Projects</h2>
                 <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
                 <div class="imges">
-                    <div class="img-1"></div>
-                    <div class="img-1"></div>
-                    <div class="img-1"></div>
-                    <div class="img-1"></div>
-                    <div class="img-1"></div>
-                    <div class="img-1"></div>
-                    <div class="img-1"></div>
-                    <div class="img-1"></div>
+                    <div class="img-1">
+                        <div class="img-3">
+                            <img src="ReGen Logo (1).png" class="project-img">
+                        </div>
+
+                        <p class="para-hover">
+                            Project Brief: Trash to Treasure<br>
+                            Transform discarded materials<br> into valuable products through<br> upcycling,
+                            promoting<br>
+                            sustainability and<br>community creativity while<br> reducing waste.</p>
+                        <a href="https://www.instagram.com/regenglow2024/" .>
+                            <div class="read">Learn more ----- > <i
+                                    class="fa-solid fa-magnifying-glass-arrow-right fa-bounce"></i></div>
+                        </a>
+                    </div>
+
+                    <div class="img-2">
+                        <div class="img-canva"><img src="canva.png"></div>
+                        <p class="canva-p">At FSSA Academy, we completed 80 presentations in our first month. We learned
+                            a lot about Canva, and I helped my squad enhance our presentation by improving the grammar
+                            and design. It was our first project together!
+
+
+
+                        </p>
+                        <div class="learn">learn me ---- ><i
+                            class="fa-solid fa-magnifying-glass-arrow-right fa-bounce"></i></div>
+                    </div>
+
                 </div>
+
+            </div>
             </div>
         </section>
         <section class="one-step" id="connect">
-            <h3>Contact us</h3>
+            <h3>CONTACT US</h3>
             <h1>Have a Project?</h1>
             <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
             <div class="from-logo">
@@ -235,19 +339,19 @@
                 <h2> Links</h2>
                 <div class="link-1">
                     <div><i class="fa-solid fa-chevron-right"></i></div>
-                    <div>Home</div>
+                    <div><a href="#home">Home</a></div>
                 </div>
                 <div class="link-1">
                     <div><i class="fa-solid fa-chevron-right"></i></div>
-                    <div>About</div>
+                    <div><a href="#about">About</a></div>
                 </div>
                 <div class="link-1">
                     <div><i class="fa-solid fa-chevron-right"></i></div>
-                    <div>PRoject</div>
+                    <div><a href="#project">Project</a></div>
                 </div>
                 <div class="link-1">
                     <div><i class="fa-solid fa-chevron-right"></i></div>
-                    <div>Contect</div>
+                    <div><a href="#contact">Contact</a></div>
                 </div>
             </div>
             <div class="ww">
@@ -266,8 +370,9 @@
                         <div>gschandhru12@gmail.com</div>
                     </div>
                     <div class="oo"><i class="fa-brands fa-twitter"></i>
-                        <i class="fa-brands fa-facebook-f"></i>
-                        <i class="fa-brands fa-square-instagram"></i>
+                        <a href="https://www.instagram.com/chandhru.g.s/"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/chandhru.g.s/"><i
+                                class="fa-brands fa-square-instagram"></i></a>
                     </div>
                 </div>
             </div>
@@ -275,5 +380,9 @@
         </div>
     </footer>
 </body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 
 </html>
