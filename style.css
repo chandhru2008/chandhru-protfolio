@@ -32,7 +32,7 @@ html {
 
 header {
   height: 80px;
-  width: 75vw;
+  width: 75%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -64,7 +64,7 @@ header {
 
 }
 
-a::after {
+.a::after {
   content: "";
   background-color: #94986c;
   height: 1.5px;
@@ -75,7 +75,7 @@ a::after {
   transition: 0.5s;
 }
 
-a:hover::after {
+.a:hover::after {
   width: 100%;
   left: 0px;
 }
@@ -88,7 +88,9 @@ a:hover::after {
   width: 75%;
   z-index: 5;
 }
-
+.section-1 a{
+  text-decoration: none;
+}
 .gif-img {
   position: absolute;
   top: 60px;
@@ -340,7 +342,7 @@ a:hover::after {
 .grid-sk {
   color: #b1b493;
   padding: 50px 0px 10px;
-  font-size: 11.5px;
+  font-size: 12.5px;
   font-weight: 700;
   letter-spacing: 3px;
 }
@@ -357,7 +359,7 @@ a:hover::after {
   background-color: #f8f9fa;
   gap: 20px;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
   font-size: 16px;
   font-weight: 600;
 }
@@ -371,7 +373,7 @@ a:hover::after {
   align-items: center;
   height: 300px;
   padding-top: 30px;
-  width: 320px;
+  width: 350px;
 }
 
 .grid-icon {
@@ -420,10 +422,11 @@ a:hover::after {
 .per-1 {
   display: flex;
   flex-direction: column;
+  height: 60px;
 }
 
 .per-2 {
-  border-right: 2px #dee2e6 solid;
+  border-right: 1px #dee2e6 solid;
   width: 130px;
 }
 
@@ -472,6 +475,7 @@ a:hover::after {
   margin-bottom: 18px;
   font-size: 14px;
   font-weight: 500;
+  cursor: pointer;
 }
 
 .project h2 {
@@ -519,7 +523,7 @@ a:hover::after {
 
 .imges {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
   gap: 25px;
   min-height: 230px;
   width: 80%;
@@ -546,6 +550,7 @@ a:hover::after {
   min-height: 150px;
   display: flex;
   flex-wrap: wrap;
+
 }
 
 .img-2 {
@@ -590,7 +595,7 @@ a:hover::after {
 }
 
 .img-1:hover {
-  background-color: #f9dd3f;
+  background-color: #b1b493;
   box-shadow: 2px 2px 5px #919498;
   padding-bottom: 40px;
 
@@ -624,19 +629,28 @@ a:hover::after {
   }
 }
 .img-canva img{
-  width: 100%;
+  width: 90%;
   height: 100%;
 }
-.img-canva{
-  width: 90%;
-  height: 100px;
-  padding-left: 20px;
+.img-canva img:hover{
+  border-radius: 5px;
 }
+.img-canva{
+  padding-top: 20px;
+  margin-left: 30px;
+  width: 90%;
+  height: 200px;
+  border-radius: 5px;
+ 
+  padding-left: 65px;
+  padding-bottom: 20px;
+}
+.img
 .canva-p{
   padding-top: 20px;
 }
 .learn{
-  margin-left: 120px;
+  margin-left: 165px;
   padding: 10px;
   opacity: 0;
   width:40%;
@@ -647,25 +661,32 @@ padding-left: 40px;
 .learn:hover{
   opacity: 1;
   border: 1px black solid;
-  background-color: #01bdcf;
+  background-color: white;
+  color: #232931;
 }
 .para-hover {
   padding-top: 30px;
   transition: all 0.8s;
 
 }
+.img-2{
+  transition:all 1s;
+}
 .img-2:hover{
-  background-color: #7e25e8;
+  background-color: #b1b493;
   .learn{
     opacity: 1;
     border: 1px black solid;
-    background-color: #01bdcf;
-    color: white;
+    background-color: white;
+    color: black;
     border-radius: 5px;
   }
   .canva-p{
     color: white;
   }
+}
+.img-2 a{
+  text-decoration: none;
 }
 .img-3 {
   transition: all 0.8s;
@@ -755,8 +776,14 @@ input {
   color: white;
   width: 200px;
   font-weight: 500;
+  cursor: pointer;
 }
-
+.copy a{
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  padding-left: 5px;
+}
 .icon-2 {
   display: flex;
   flex-direction: column;
@@ -768,7 +795,9 @@ input {
   display: flex;
   gap: 15px;
 }
-
+.icons-item a{
+  text-decoration: none;
+}
 .add-1 {
   text-align: left;
   display: flex;
@@ -839,6 +868,7 @@ footer {
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 500;
+  cursor: pointer;
 }
 
 .link-1 {
@@ -869,7 +899,9 @@ footer {
   padding-bottom: 20px;
   color: #919498;
 }
-
+.thiru a{
+  color: #a7a9ad;
+}
 .oo {
   display: flex;
   gap: 10px;
@@ -899,16 +931,26 @@ footer {
 }
 
 @media (max-width:760px) {
+ 
   form {
     width: 100%;
   }
-
+  header{
+    margin: 0px;
+  }
+.header-1{
+  width: 390px;
+  margin: 0px;
+}
   .name,
   .email {
     width: 100%;
   }
 form input{
   width: 200px;
+}
+.gif{
+  width:0px;
 }
   .footer-1 {
     margin-left: 0;
@@ -920,7 +962,7 @@ form input{
   }
 
   .imges {
-    margin-left: 20px
+    margin: 0px;
   }
 
   .img-1 {
@@ -929,11 +971,16 @@ form input{
     width: 60%;
   }
 
-
+.project{
+  width: 380px;
+}
+.project .tam-flex{
+  margin: 0px;
+}
   .img-3 {
     width: 100%;
     height: 60%;
-    ;
+    
   }
 
   .project-img {
@@ -954,7 +1001,12 @@ form input{
   }
 
  
-
+.img-grid-1{
+  margin: 0px;
+}
+.tam-flex{
+  margin: 0px;
+}
   .gif-img {
     margin-left: 100px;
     overflow: hidden;
@@ -965,11 +1017,39 @@ form input{
     padding-left: 30px;
   }
   .img-2{
-    height: 450px;
+    height: 650px;
     width:60%;
+    margin-left: 50px;
+  }
+  .img-2 .img-canva{
+    margin-left: 0px;
+    width: 100%;
+    padding-left: 10px;
+  }
+  .img-2 .img-canva img{
+    margin-left: 10px;
+    padding-left: 0px;
+  }
+  .read{
+    margin-left: 10px;
+  }
+  .learn{
+    margin-left: 30px;
+    width: 200px;
+  }
+  .footer-1{
+    margin: 0px;
+  }
+  .img-grid-1{
+    width: 100%;
   }
 }
-
+.grid{
+  width:100%;
+}
+.form-logo{
+  margin: 0px;
+}
 @media(max-width:1024px) {
   header {
     background-color: black;
@@ -1022,5 +1102,6 @@ form input{
 
   .img-1 {
     height: 800px;
+    margin-left: 50px;
   }
 }
